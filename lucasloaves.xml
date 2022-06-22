@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-stylesheet type="text/xsl" href="lucasLoaves.xsl"?>
+<!DOCTYPE lucasLoaves[
+  <!ELEMENT lucasLoaves (record+)>
+  <!ELEMENT record (breadType, price, description, photo, audio)>
+  <!ELEMENT breadType (#PCDATA)>
+  <!ELEMENT price (#PCDATA)>
+  <!ELEMENT description (#PCDATA)>
+  <!ELEMENT photo (#PCDATA)>
+  <!ELEMENT audio (#PCDATA)>
+]>
+
+<lucasLoaves>
+
+   <record>
+      <breadType>Sourdough White</breadType>
+      <price>$7</price>
+      <description>Our Standard Soudough</description>
+      <photo>Sourdough White.gif</photo>
+      <audio>Sourdough White.mp3</audio>
+   </record>
+
+   <record>
+      <breadType>Sourdough Rye</breadType>
+      <price>$8</price>
+      <description>Sourdough Created With 50% Rye Flour</description>
+      <photo>Sourdough Rye.gif</photo>
+      <audio>Sourdough Rye.mp3</audio>
+   </record>
+
+   <record>
+      <breadType>Sourdough spelt</breadType>
+      <price>$9</price>
+      <description>Sourdough Created With 100% Spelt Flour</description>
+      <photo>Sourdough spelt.gif</photo>
+      <audio>Sourdough spelt.mp3</audio>
+   </record>
+
+   <record>
+      <breadType>Sourdough Seeded</breadType>
+      <price>$9.5</price>
+      <description>Sourdough including A Mixture Of Yummy Seeds</description>
+      <photo>Sourdough Seeded.gif</photo>
+      <audio>Sourdough Seeded.mp3</audio>
+   </record>
+
+</lucasLoaves>
